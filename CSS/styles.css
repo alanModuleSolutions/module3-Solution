@@ -1,0 +1,49 @@
+
+
+/********* Large device only *********/
+
+@media (min-width: 1200px) {
+
+}
+/********* END - Large device only *********/
+
+
+
+
+
+/********* Medium device only *********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+/********* END - Medium device only *********/
+
+
+
+
+
+/********* Small device only *********/  
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/********* END - Small device only *********/
+
+
+
+
+
+
+/********* Extra small device only *********/
+@media (max-width: 767px) {
+
+}
+/********* END - Extra small device only *********/
+
+
+
+
+
+/********* Super extra small devices *********/
+@media (max-width: 479px) {
+
+}
+/********* END - Super extra small devices *********/
