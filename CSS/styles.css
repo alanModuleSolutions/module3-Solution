@@ -34,7 +34,17 @@
 
 /********* Extra small device only *********/
 @media (max-width: 767px) {
+    .collapse {
+        background-color: lightgray;
+    }
 
+    .collapsing {
+        background-color: lightgray;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        color: rgb(110, 110, 110)
+    }
 }
 /********* END - Extra small device only *********/
 
@@ -44,6 +54,8 @@
 
 /********* Super extra small devices *********/
 @media (max-width: 479px) {
-
+    .navbar-toggle {
+        float: right;
+    }
 }
 /********* END - Super extra small devices *********/
