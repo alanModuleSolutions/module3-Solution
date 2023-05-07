@@ -34,20 +34,24 @@
 
 /********* Extra small device only *********/
 @media (max-width: 767px) {
+
+    
+
     .collapse {
-        background-color: lightgray;
+        background-color: rgba(211, 211, 211, 0.541);
     }
 
     .collapsing {
-        background-color: lightgray;
+        background-color:  rgba(211, 211, 211, 0.541);
     }
 
     .navbar-default .navbar-nav>li>a {
-        color: rgb(110, 110, 110)
+        color: rgb(167, 167, 167)
     }
+
+    
 }
 /********* END - Extra small device only *********/
-
 
 
 
@@ -59,3 +63,22 @@
     }
 }
 /********* END - Super extra small devices *********/
+
+#menu-title {
+    padding-bottom: 20px;
+}
+
+.main-text {
+    background-color: rgba(211, 211, 211, 0.541);
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.navbar {
+    background-color: rgba(211, 211, 211, 0.541);
+    /* background-color: red; */
+}
