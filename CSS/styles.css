@@ -39,15 +39,19 @@
     
 
     .collapse {
-        background-color: rgba(211, 211, 211, 0.541);
+        background-color: var(--my-background-color);
     }
 
     .collapsing {
-        background-color:  rgba(211, 211, 211, 0.541);
+        background-color:  var(--my-background-color);
     }
 
     .navbar-default .navbar-nav>li>a {
         color: rgb(167, 167, 167)
+    }
+
+    .navbar-default .navbar-nav>li>a:hover {
+        background-color: var(--my-background-color); 
     }
 
     
@@ -74,13 +78,14 @@ p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+
 .navbar {
-    background-color: rgba(211, 211, 211, 0.541);
-    /* background-color: red; */
+    background-color: var(--my-background-color);
 }
 
 .main-text-container {
-    background-color:  rgba(211, 211, 211, 0.541);;
+    background-color:  var(--my-background-color);
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -91,5 +96,11 @@ p {
 
 .container {
     width: 95%;
+}
+
+
+:root {
+     --my-background-color: rgba(211, 211, 211, 0.541);
+     
 }
 
