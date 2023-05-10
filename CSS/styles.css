@@ -1,5 +1,6 @@
 
 
+
 /********* Large device only *********/
 
 @media (min-width: 1200px) {
@@ -68,17 +69,27 @@
     padding-bottom: 20px;
 }
 
-.main-text {
-    background-color: rgba(211, 211, 211, 0.541);
-}
-
 p {
+    padding-top: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-
 
 .navbar {
     background-color: rgba(211, 211, 211, 0.541);
     /* background-color: red; */
 }
+
+.main-text-container {
+    background-color:  rgba(211, 211, 211, 0.541);;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.container {
+    width: 95%;
+}
+
