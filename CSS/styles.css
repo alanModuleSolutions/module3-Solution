@@ -53,7 +53,6 @@
     .navbar-default .navbar-nav>li>a:hover {
         background-color: var(--my-background-color); 
     }
-
     
 }
 /********* END - Extra small device only *********/
@@ -103,4 +102,3 @@ p {
      --my-background-color: rgba(211, 211, 211, 0.541);
      
 }
-
